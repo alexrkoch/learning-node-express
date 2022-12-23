@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node distr/index.js",
-    "prestart": "tsc src/index.ts"
+    "start": "tsc && node dist/server.js"
   },
   "author": "",
   "license": "ISC",
